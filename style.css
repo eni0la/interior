@@ -338,6 +338,7 @@ margin-bottom: 3em;
   }
   .space p{
     font-size:1em ;
+    width: 100%;
   }
 }
 @media screen and (max-width: 750px) {
@@ -409,7 +410,7 @@ margin-bottom: -0.8em;
 @media screen and (max-width: 750px) {
   .solution {
   margin-top: 6em;
-  margin-left: -4em;
+  margin-left: -5em;
   margin-bottom: 1em;
   }
 }
@@ -449,10 +450,10 @@ margin-bottom: -0.8em;
 }
 @media screen and (max-width: 750px) {
   #cowork  {
-  margin-left: 01em;
+  margin-left: 0em;
   }
   #cowork .video{
-    margin-left: 4.5em;
+    margin-left: 5em;
   }
 }
 .meet img{
@@ -508,6 +509,7 @@ text-align: left;
   }
   #photos .black p{
     font-size: 1.5em;
+    width: 95%;
   }
   #photos .learn{
     float: none;

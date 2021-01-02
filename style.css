@@ -554,16 +554,7 @@ margin-bottom: -2em;
   width: 95%;
   font-size: 1..4em;
   line-height: 26px;
-}
-#why  .nm2{
-  float: right;
-  margin-top: -10.5em;
-  margin-right:9.4em;
-}
-#why .nm4{
-  float: right;
-  margin-top: -10.5em;
-  margin-right:12em;
+  margin-bottom: 3em;
 }
 #why .number{
   width: 100%;
@@ -582,9 +573,21 @@ margin-bottom: -2em;
   background: rgba(16, 188, 148);
   line-height: 28px;
 }
+@media screen and (max-width: 750px) {
+  #why{
+    display: block;
+  }
+  #why .world{
+    margin-top: 3em;
+    align-items: center;
+    margin-left: 0.2em;
+    width: 70%;
+  }
+}
 .use {
   text-align: center;
-  margin-top: -8em;
+  margin-top:9em;
+  position: relative;
 }
 .use h3{
 font-weight: bolder;
@@ -595,4 +598,9 @@ margin-bottom: -0.1em;
 .use h6{
 font-weight: bolder;
 font-size: 0.8em;
+}
+@media screen and (max-width: 750px) {
+  .use{
+  margin-top: 24em;
+  }
 }

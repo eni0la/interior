@@ -265,6 +265,7 @@ header nav ul  li a{
     #main .main2{
       margin-left: 2.8em;
       width: 80%;
+      font-size: 1.1em;
     }
   }
 
@@ -391,8 +392,11 @@ width: 90%;
   font-size: 0.8em;
   }
 
-  #work p{
-    font-size: 0.5em;
+  #work .work1 p{
+    font-size: 0.8em;
+  }
+  #work .work3 p{
+    font-size: 0.8em;
   }
 }
 .solution h6{
@@ -457,6 +461,15 @@ margin-bottom: -0.8em;
   }
   #cowork .video{
     margin-left: 5em;
+  }
+  #cowork .video h6{
+    font-size: 1em;
+  }
+  #cowork .video h5{
+    font-size: 1em;
+  }
+  #cowork .video p{
+    font-size: 1.1em;
   }
 }
 .meet img{
@@ -588,11 +601,17 @@ margin-bottom: -2em;
   #why .ospace{
     width: 95%;
   }
+  #why .ospace p{
+    font-size: 1.1em;
+  }
   #why .world{
 margin-left: -50em;
 margin-top: 1em;
 width: 75%;
 height: 20em;
+  }
+  #why .world p{
+    font-size: 1.1em;
   }
 }
 .use {
@@ -616,5 +635,14 @@ font-size: 1.2em;
 @media screen and (max-width: 750px) {
   .use{
   margin-top: 29em;
+  }
+  .use h5{
+font-size: 1em;
+  }
+  .use h6{
+font-size: 1.1em;
+}
+  .use p{
+font-size: 1.1em;
   }
 }

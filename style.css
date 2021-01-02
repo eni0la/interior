@@ -531,12 +531,6 @@ text-align: left;
   justify-content: space-between;
   margin-top: 10em;
 }
-#why .agency img{
-  width:90%;
-  height: 60%;
-  margin-top: -1em;
-  
-}
 #why .agency {
   width: 50%;
 }
@@ -579,7 +573,7 @@ margin-bottom: -2em;
     display: block;
   }
   #why .world{
-    margin-top: 3em;
+    margin-top: 1em;
     align-items: center;
     margin-left: 0.2em;
     width: 70%;
@@ -587,9 +581,7 @@ margin-bottom: -2em;
   #why .ospace{
     width: 95%;
   }
-  #why .agency img{
-width: 100%;
-  }
+ 
 }
 .use {
   text-align: center;
@@ -608,6 +600,6 @@ font-size: 0.8em;
 }
 @media screen and (max-width: 750px) {
   .use{
-  margin-top: 24em;
+  margin-top: 26em;
   }
 }

@@ -138,15 +138,14 @@ body{
 }
 #menu 
 {
-  display: none;
+  display: block;
   position: absolute;
-  width: 300px;
+  width: 270px;
   height: 300px;
-  margin: -100px 0 -50px;
+  margin: -100px -5px -100px;
   padding: 50px;
   padding-top: 125px;
   background: #000000;
-  list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
   
@@ -158,6 +157,7 @@ body{
 
 #menu li
 {
+  display: inline-block;
   padding: 10px 0;
   font-size: 22px;
 }

@@ -516,6 +516,7 @@ text-align: left;
   }
   #photos .learn p{
     font-size: 1em;
+    width: 100%;
     margin-left: 2em;
   }
   #photos .learn h6{

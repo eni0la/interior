@@ -520,7 +520,7 @@ text-align: left;
     margin-left: 2em;
   }
   #photos .learn h6{
-    margin-left: 0.1em;
+    margin-left: 1em;
 }
 }
 #why{
@@ -583,6 +583,12 @@ margin-bottom: -2em;
     align-items: center;
     margin-left: 0.2em;
     width: 70%;
+  }
+  #why .ospace{
+    width: 95%;
+  }
+  #why .agency img{
+width: 100%;
   }
 }
 .use {
